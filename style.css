@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张天颖的个人主页</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- 装饰元素：背景圆点 -->
+    <div class="bg-decor dot1"></div>
+    <div class="bg-decor dot2"></div>
+    <div class="bg-decor dot3"></div>
+
+    <!-- 头部导航 -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="title-decor">
+                    <span class="circle"></span>
+                    <h1 class="site-title">张天颖的个人主页</h1>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#home" class="nav-link">首页</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">关于我</a></li>
+                        <li class="nav-item"><a href="#hobbies" class="nav-link">兴趣爱好</a></li>
+                        <li class="nav-item"><a href="#learning" class="nav-link">学习动态</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主要内容区 -->
+    <main class="main">
+        <!-- 首页banner -->
+        <section id="home" class="banner">
+            <div class="container">
+                <div class="banner-content">
+                    <p class="banner-text">欢迎来到我的个人网站</p>
+                    <p class="banner-subtext">一起了解我的生活与学习～</p>
+                    <div class="scroll-indicator">
+                        <span>向下滚动</span>
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- 波浪分隔线 -->
+            <div class="wave-divider"></div>
+        </section>
+
+        <!-- 关于我模块 -->
+        <section id="about" class="about section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="title-icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                    关于我
+                </h2>
+                <div class="about-content">
+                    <div class="about-photo">
+                        <div class="photo-frame">
+                            <!-- 可替换为个人照片 -->
+                            <div class="placeholder-img"></div>
+                        </div>
+                    </div>
+                    <div class="about-details">
+                        <p class="about-item"><i class="fa fa-user-circle-o" aria-hidden="true"></i> 姓名：张天颖</p>
+                        <p class="about-item"><i class="fa fa-calendar-o" aria-hidden="true"></i> 年龄：21岁</p>
+                        <p class="about-item"><i class="fa fa-graduation-cap" aria-hidden="true"></i> 身份：在读大学生</p>
+                        <p class="about-item"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> 个人特质：喜欢探索各个领域的知识，具备创造力，乐于尝试新事务并将想法付诸实践</p>
+                        <div class="decor-line"></div>
+                        <p class="about-quote">"保持好奇，持续探索，让想法照进现实"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 兴趣爱好模块 -->
+        <section id="hobbies" class="hobbies section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="title-icon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                    兴趣爱好
+                </h2>
+                <div class="hobbies-list">
+                    <!-- 音乐爱好 -->
+                    <div class="hobby-card">
+                        <div class="hobby-icon">
+                            <div class="icon-bg">
+                                <i class="fa fa-music" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <h3 class="hobby-title">音乐</h3>
+                        <p class="hobby-desc">擅长乐器：吉他、钢琴，闲暇时喜欢弹奏轻音乐放松心情</p>
+                        <div class="hobby-tags">
+                            <span class="tag">吉他</span>
+                            <span class="tag">钢琴</span>
+                            <span class="tag">轻音乐</span>
+                        </div>
+                    </div>
+                    <!-- 运动爱好 -->
+                    <div class="hobby-card">
+                        <div class="hobby-icon">
+                            <div class="icon-bg">
+                                <i class="fa fa-table-tennis" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <h3 class="hobby-title">运动</h3>
+                        <p class="hobby-desc">常参与的运动：羽毛球、乒乓球，喜欢通过运动保持活力</p>
+                        <div class="hobby-tags">
+                            <span class="tag">羽毛球</span>
+                            <span class="tag">乒乓球</span>
+                            <span class="tag">活力</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 学习动态模块 -->
+        <section id="learning" class="learning section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="title-icon"><i class="fa fa-book" aria-hidden="true"></i></span>
+                    学习动态
+                </h2>
+                <div class="learning-content">
+                    <div class="learning-card">
+                        <div class="learning-icon">
+                            <i class="fa fa-code" aria-hidden="true"></i>
+                        </div>
+                        <div class="learning-text">
+                            <h3>正在学习</h3>
+                            <p>Web Programming（网页编程）</p>
+                        </div>
+                    </div>
+                    <div class="learning-card">
+                        <div class="learning-icon">
+                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="learning-text">
+                            <h3>学习背景</h3>
+                            <p>作为兴趣爱好的拓展，探索网页制作的乐趣</p>
+                        </div>
+                    </div>
+                    <div class="learning-card">
+                        <div class="learning-icon">
+                            <i class="fa fa-rocket" aria-hidden="true"></i>
+                        </div>
+                        <div class="learning-text">
+                            <h3>学习目标</h3>
+                            <p>掌握HTML、CSS等核心技术，希望能为未来的专业学习提供助力</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 底部信息 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">© 2025 张天颖的个人主页</p>
+                <div class="footer-links">
+                    <a href="#" class="footer-link"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href="#" class="footer-link"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                </div>
+                <p class="footer-reference">参考资料：B站CS50W视频、GitHub Pages发布教程</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 回到顶部按钮 -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <script>
+        // 回到顶部功能
+        const backToTopBtn = document.getElementById('back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+        
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // 平滑滚动导航
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
